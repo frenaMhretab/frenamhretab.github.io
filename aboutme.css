@@ -1,6 +1,7 @@
+
 body {
     
-    background-image: url("images/pic3.webp") 
+    background-image: url("./LAB-2/images/pic3.webp") 
 }
     
         .img1{
@@ -32,3 +33,7 @@ body {
             font-weight: bold;
             font-size: 35px;
         }
+
+        
+
+        
