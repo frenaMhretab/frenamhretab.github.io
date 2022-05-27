@@ -1,80 +1,38 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About me </title>
-    <h1> About Frena Mhretab</h1>
-    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat veniam, eaque perferendis doloribus corporis illum modi, 
-        eveniet assumenda optio sed dolor, suscipit velit ab aliquam quod! Saepe qui nemo magnam?</P>
-        <hr>
-        <link rel="stylesheet" href="aboutme.css">
-</head>
-<body>
-    <div>
- <h3>My Courses</h3> 
- <ul>
-     <li>CS 390 -Fundamental Programming Practices </li>
-     <li>CS 401- Modern Programming Practices</li>
-     <li>CS 422- Data base </li>
-     <li>CS 472- Web Programming</li>
-     <li>CS 544- Enterprise Architecture</li>
-     <li>CS 590- Software Architecture</li>
-     
-    </ul>  
-    </div>
-    <div>
-        <h3>My Favorite movies  </h3>
-        <ol>
-            <li> 
-         <ul>
 
-            <li> The Passion Of Christ <a href="https://www.imdb.com/title/tt0335345/?ref_=fn_al_tt_2" > IDMB</a></li>
-            <li> friends   <a href="https://www.imdb.com/title/tt1187043/?ref_=fn_al_tt_1">IDMB</a> </li>
-            <li>Troy <a href=" https://www.imdb.com/title/tt0332452/?ref_=fn_al_tt_1"> IDMB</a> </li>
-            
-             
+body {
     
-         </ul>
-            </li>
-            <li> 
-                <ul>
-                    <h2>  </h2>
-                    <li> books </li>
-                    <li>  Reanson: REmding Love</li>
-                    <li> Tim wise: color blind </li>
-                </ul>
-              <li>
-            <ul>
-                <h3>  </h3>
-                    <li> tv show</li>
-                    <li>Creator: Shonda Rhimes </li>
-                    <li>Women of the Moviement</li>
-                </ul>
-            </li>
-        </ol>
+    background-image: url("images/pic3.webp") 
+}
     
-
-    <h3> My Moods </h3>
-
-<span>
-    Happy:
-    <img class="im" src="./happy-patient.jpg" alt="picture">
-    Sad:
-    <img class="im" src="./70d42a-crying-kid.jpg"picture">
-</span>
-</div>
-<h2>Fun Fact</h2>
-<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias quas quod magni asperiores. Similique recusandae 
-    soluta ad aut quos, molestias assumenda laborum, inventore ut quam quo quisquam voluptatem voluptatum id!</p>
-
-
-<span>
-    <img class="validation" src="./w3c-html.png" alt="picture">
-    <img class="validation" src="./w3c-html.png" alt="picture">
-</span>
-</html>
+        .img1{
+            display: flex;
+            justify-content: space-between;
+            size-adjust: 100px;           
+        }
+       
+        .header{
+            font-weight: bolder;
+            font-size: 50px;
+        }
+        .intro{
+            font-size: 20px
+        }
+        .subheader1{
+            font-weight: bold
+            font-size = 35px;  
+        }
+        .subheader2{
+            font-weight: bold;
+            font-size: 35px;
+        }
+        .subheader3{
+            font-weight: bold;
+            font-size: 35px;
+        }
+        .subheader4{
+            font-weight: bold;
+            font-size: 35px;
+        }
 
         
 
