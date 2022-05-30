@@ -1,48 +1,43 @@
-
-body {
-    
-    background-image: url("images/pic3.webp") 
-}
-div class="review1">
-<div class="reviewandreviewer">
-    <div class="reviews">
-        <p>
-        <img class="icon" src="./images/rotten.gif" alt="Rotten" />
-        <q >Ditching the cheeky, self-aware wink that helped to excuse the concept's inherent corniness, the movie attempts to look polished and 'cool,' but the been-there animation can't compete with the then-cutting-edge puppetry of the 1990 live-action movie.</q>
-    </p>
-    
-    </div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="lab4.css">
+</head>
+<body>
+    <form>
+        
+          
+<div >
     <p>
-        .img1{
-            display: flex;
-            justify-content: space-between;
-            size-adjust: 100px;           
-        }
-       
-        .header{
-            font-weight: bolder;
-            font-size: 50px;
-        }
-        .intro{
-            font-size: 20px
-        }
-        .subheader1{
-            font-weight: bold
-            font-size = 35px;  
-        }
-        .subheader2{
-            font-weight: bold;
-            font-size: 35px;
-        }
-        .subheader3{
-            font-weight: bold;
-            font-size: 35px;
-        }
-        .subheader4{
-            font-weight: bold;
-            font-size: 35px;
-        }
+    <label class="box1" for="email">Email Address</label></p>
+</div>
+    <div >
+    <input class="box2" type="email" placeholder="Enter email"> 
 
-        
+</div>
+<p>We will never share your email with anyone else.</p>
 
+<div >
+    <p>
+    <label class="box3" for="password">Password</label></p>
+</div>
+
+<div ><input class="box4" type="text" placeholder="Password"></div>
+<div >
+    <p>
+<input class="box5" type="checkbox">
+<label for="checkbox">Check me out</label></p>
+</div>
+<div >
+    <button class="box6"> Submit </button>
+</div>
         
+    
+
+    </form>
+</body>
+</html>
